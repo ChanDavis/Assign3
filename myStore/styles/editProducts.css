@@ -1,0 +1,29 @@
+﻿
+.imgTd
+{
+   height: 60px;
+   width: 60px;
+}
+
+.productImg
+{
+    max-height: 50px;
+    max-width: 50px;
+    position: absolute;
+}
+
+.productImg:hover 
+{
+    max-height: 300px;
+    max-width: 200px;
+    z-index: 100;
+}
+.table 
+{
+    border-top: solid 3px white;
+}
+th, td
+{
+    padding-left: 15px;
+
+}

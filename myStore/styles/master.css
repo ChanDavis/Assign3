@@ -1,0 +1,48 @@
+﻿body 
+{
+    background-color: black;
+    color: white;
+}
+
+#createUserDiv, #loginDiv .loginDiv
+{
+    position: absolute;
+    right: 0;
+    width:inherit;
+    z-index: 100;
+}
+
+#goRight, .goRight
+{
+    float: right;
+    margin-right: 25px;
+}
+
+input
+{
+    color: black;
+}
+.loginElement 
+{
+    display: inline;
+}
+
+nav ul 
+{
+    display: -webkit-inline-box;
+}
+#mainContentDiv
+{
+    margin: 0 145px;
+    width: 80%;
+}
+#mainForm p, p
+{
+    font-size: 17px;
+    
+}
+.page-header 
+{
+    text-align: center;
+}
+

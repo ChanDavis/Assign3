@@ -1,0 +1,48 @@
+﻿/********************************************************************/
+.floaterHolder
+{
+   display: inline-block;
+}
+.imgRow
+{
+   height: 300px;
+   width: 200px;
+}
+.popup
+{
+    background: white;
+    color: black;
+    display: block;
+    height: 800px;
+    left: 20%;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 800px;
+    z-index: 1;
+}
+.popupHeader1 
+{
+    display: inline;
+    float: right;
+}
+
+.popupImg
+{
+    display: inline;
+    float:left;
+    max-height: 500px;
+    max-width: 500px;
+}
+.productImg
+{
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.productName, .productPrice
+{
+    float: right;
+    font-size: 20px;
+}
